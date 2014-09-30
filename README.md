@@ -14,9 +14,14 @@ CUIで実行可能なため、LinuxのCronで実行出来る。
     # pip install pyvirtualdisplay
     
 # アプリケーションの実行
-    driver.find_element_by_id("user_email").send_keys("change_mail_address") のchange_mail_addressをログインで利用するメールアドレスに変更
-    driver.find_element_by_id("user_password").send_keys("change_password") のchange_passwordをログインで利用するパスワードに変更
-    driver.get("change_url") のchange_urlを実際にダウンロードするExcelのURLに変更
+    driver.find_element_by_id("user_email").send_keys("change_mail_address")
+    21行目のchange_mail_addressをログインで利用するメールアドレスに変更
+    
+    driver.find_element_by_id("user_password").send_keys("change_password")
+    24行目のchange_passwordをログインで利用するパスワードに変更
+    
+    driver.get("change_url")
+    27行目のchange_urlを実際にダウンロードするExcelのURLに変更
     ※例　https://manage.doorkeeper.jp/groups/hoge/events/99999999/tickets.xlsx
 
     # /usr/bin/python getDoorkeeperExcel.py
