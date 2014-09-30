@@ -26,5 +26,5 @@ CUIで実行可能なため、LinuxのCronで実行出来る。
 
     # /usr/bin/python getDoorkeeperExcel.py
     
-##doorKeeperの参加者一覧ExcelをWebのTableで表示する場合
+##doorKeeperの参加者一覧ExcelをWebで表示する場合
 [viewExcel2Table](https://github.com/soudai/viewExcel2Table) 
