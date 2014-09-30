@@ -25,3 +25,6 @@ CUIで実行可能なため、LinuxのCronで実行出来る。
     ※例　https://manage.doorkeeper.jp/groups/hoge/events/99999999/tickets.xlsx
 
     # /usr/bin/python getDoorkeeperExcel.py
+    
+##doorKeeperの参加者一覧ExcelをWebのTableで表示する場合
+[viewExcel2Table](https://github.com/soudai/viewExcel2Table) 
